@@ -1,0 +1,212 @@
+.checkout {
+  margin-left: 30px;
+  padding: 20px;
+}
+
+.checkout h1 {
+  font-size: 2.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 200;
+  margin-bottom: -5px;
+}
+
+.checkout form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin-bottom: 200px;
+}
+
+.checkout form h2 {
+  margin: 0.5rem 0;
+  font-size: 1.5rem;
+  color: rgb(2, 2, 2);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.checkout h3 {
+  font-size: 1rem;
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.checkout h4 {
+  border-bottom: 1px solid grey;
+  margin-top: -5px;
+}
+
+.checkout form input {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: 1.5px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.checkout form button {
+  background-color: #eac066;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  width: 100%;
+  font-weight: bold;
+  position: relative;
+  top: 50px;
+}
+
+.checkout form button:hover {
+  background-color: #555;
+}
+
+.accepted-cards {
+  margin-left:800px;
+  width: 100%;
+  max-width: 300px;
+  position: relative;
+  top: -300px;
+}
+
+.accepted-cards img {
+  width: 50px;
+  height: 35px;
+  border-radius: 2px;
+}
+
+.cards {
+  display: flex;
+  gap: 10px;
+}
+
+.ship-pay {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ship-pay h6 {
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 20px;
+  width: 20px;
+  text-align: center;
+}
+
+.ship-pay .circle1 {
+  background-color: #ccc;
+}
+
+.ship-pay .circle2 {
+  background-color: #eac066;
+}
+
+.ship-pay p img {
+  justify-content: center;
+}
+
+.ship-pay p {
+  color: #645f5f;
+  font-weight: 400;
+}
+
+.span1 {
+  background-color: #ccc;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.span2 {
+  background-color: #f8d75f;
+  width: 30px;
+}
+
+.zip {
+  display: flex;
+}
+
+.zip input {
+  position: relative;
+  top: 20px;
+  left: -25px;
+}
+
+.security {
+  display: flex;
+}
+
+.month {
+  display: flex;
+  gap: 10px;
+}
+
+.security input {
+  position: relative;
+  top: 40px;
+  left: -70px;
+}
+
+.security label {
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .checkout {
+    margin-left: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .checkout h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .checkout form {
+    max-width: 100%;
+    margin-bottom: 100px;
+  }
+
+  .checkout form button {
+    width: 100%;
+    top: 20px;
+  }
+
+  .accepted-cards {
+  display: none;
+  }
+
+  .ship-pay {
+    display: none;
+  }
+
+  .cards {
+    justify-content: center;
+  }
+
+  .zip {
+    flex-direction: column;
+  }
+
+  .zip input {
+    position: static;
+    margin-top: 10px;
+  }
+
+  .security {
+    flex-direction: column;
+  }
+
+  .security input {
+    position: static;
+    margin-top: 10px;
+  }
+
+  .month {
+    flex-direction: column;
+  }
+}

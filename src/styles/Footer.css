@@ -1,0 +1,73 @@
+footer {
+    background-color: #3b2107;
+    color: white;
+    padding: 2rem 0;
+  }
+  
+  footer h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(225, 225, 83);
+    text-align: center;
+  }
+  
+  footer .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+    padding: 1rem;
+  }
+  
+  footer .footer-category,
+  footer .footer-contact,
+  footer .newsletter {
+    flex: 1;
+  }
+  
+  footer .footer-category ul,
+  footer .footer-contact ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer .footer-contact p {
+    margin: 0.5rem 0;
+  }
+  
+  footer .social-media {
+    display: flex;
+    gap: 10px;
+  }
+  
+  footer .social-media i {
+    font-size: 1.5rem;
+  }
+  
+  footer .newsletter h4 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 1rem;
+  }
+  
+  footer .email {
+    display: flex;
+    align-items: center;
+  }
+  
+  .email input {
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 200px;
+    margin-right: 1rem;
+  }
+  
+  .email img {
+    width: 20px;
+    margin-top: 10px;
+  }
+  
+  .footer-bottom {
+    border-top: 2px grey solid;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  

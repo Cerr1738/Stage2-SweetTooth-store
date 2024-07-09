@@ -1,0 +1,100 @@
+/* General styles */
+.App {
+    text-align: center;
+}
+
+header, footer {
+    background-color: #3b2107;
+    color: white;
+    padding: 1rem;
+}
+
+/* Header and Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+nav h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(225, 225, 83);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:focus {
+    text-decoration: underline;
+}
+
+/* Hamburger menu */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+/* Icon styles */
+.icon3 {
+    display: flex;
+    gap: 1rem;
+}
+
+.icon33 img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #3b2107;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    nav li {
+        margin: 1rem 0;
+    }
+
+    nav ul {
+        width: 100%;
+        text-align: center;
+    }
+}
