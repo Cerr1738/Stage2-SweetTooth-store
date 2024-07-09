@@ -154,10 +154,11 @@
 
 @media (max-width: 768px) {
   .checkout {
-    margin-left: 0;
+    margin-left: 20px;
     padding: 10px;
     display: flex;
     flex-direction: column;
+    margin-right: 40px;
   }
 
   .checkout h1 {
