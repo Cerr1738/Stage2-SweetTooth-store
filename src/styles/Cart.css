@@ -164,3 +164,45 @@
       margin-bottom: -200px;
     }
   }
+ @media (min-width: 390px) {
+    .cart-item{
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      margin: auto;
+    }
+    .image-name{
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+    }
+    .cart{
+      display: flex;
+      flex-direction: column;
+      
+    }
+    .words span{
+       display: none;
+      
+      
+    .words p{
+      margin-left:125px;
+  
+    }
+    .words{
+      width: 300px;
+      /* border-bottom: none; */
+      margin-left: 20px;
+    }
+
+    .cart-total{
+      margin-left: 70px;
+      margin-top: 800px;
+      align-items: center;
+      margin-bottom: -200px;
+    }
+    .cart-total input{
+      margin-right: 20px;
+    }
+  }
+     
